@@ -138,6 +138,11 @@ function jogar() {
   var atributoSelecionado = obtemAtributoSelecionado();
   var divResultado = document.getElementById("resultado");
 
+  if (!atributoSelecionado) {
+    alert("Escolha um atributo antes de jogar");
+    return;
+  }
+
   if (
     cartaJogador.atributos[atributoSelecionado] >
     cartaMaquina.atributos[atributoSelecionado]
