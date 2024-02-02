@@ -161,7 +161,7 @@ function exibirCartaJogador() {
       atributo +
       "'>" +
       atributo +
-      " " +
+      ": " +
       cartaJogador.atributos[atributo] +
       "<br>";
   }
@@ -183,7 +183,7 @@ function exibirCartaMaquina() {
       atributo +
       "'>" +
       atributo +
-      " " +
+      ": " +
       cartaMaquina.atributos[atributo] +
       "</p>";
   }
