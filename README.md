@@ -6,7 +6,7 @@ Ainda não está 100% completo, ainda quero fazer mudanças no layout das cartas
 
 ## 💻 Como foi feito
 
-Comecei a desenvolver esse projeto durante a imersão dev da Alura e com o passar do tempo fui implementando a temática nele e fazendo alguams modificações em algumas funcionalidades.
+Comecei a desenvolver esse projeto durante a imersão dev da Alura e com o passar do tempo fui implementando a temática nele e fazendo algumas modificações em algumas funcionalidades.
 
 Feito com: _HTML_, _CSS_ e _JavaScript_.
 
