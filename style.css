@@ -38,6 +38,13 @@ button {
   cursor: pointer;
 }
 
+.button-jogar {
+  width: 200px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
 #btnJogar:disabled,
 #btnSortear:disabled {
   cursor: not-allowed;
