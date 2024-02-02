@@ -2,7 +2,7 @@
 
 Esse é um jogo de super trunfo com temática da minha saga favorita, As Crônicas de Spiderwick.
 
-Ainda não está 100% completo, ainda quero fazer mudanças no layout das cartas e deifnir melhor os atributos de cada carta.
+Ainda não está 100% completo, ainda quero fazer mudanças no layout das cartas e definir melhor os atributos de cada carta.
 
 ## 💻 Como foi feito
 
