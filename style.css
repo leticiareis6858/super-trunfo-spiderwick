@@ -38,6 +38,11 @@ button {
   cursor: pointer;
 }
 
+#btnJogar:disabled,
+#btnSortear:disabled {
+  cursor: not-allowed;
+}
+
 h2 {
   color: white;
 }
