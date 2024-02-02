@@ -150,7 +150,6 @@ function jogar() {
 function exibirCartaJogador() {
   var divCartaJogador = document.getElementById("carta-jogador");
   divCartaJogador.style.backgroundImage = `url(${cartaJogador.imagem})`;
-  // divCartaJogador.style.backgroundImage="url("+cartaJogador.imagem+")"
   var moldura =
     '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
   var tagHTML = "<div id='opcoes' class='carta-status'>";
@@ -173,7 +172,6 @@ function exibirCartaJogador() {
 function exibirCartaMaquina() {
   var divCartaMaquina = document.getElementById("carta-maquina");
   divCartaMaquina.style.backgroundImage = `url(${cartaMaquina.imagem})`;
-  // divCartaMaquina.style.backgroundImage="url("+cartaMaquina.imagem+")"
   var moldura =
     '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">';
   var tagHTML = "<div id='opcoes' class='carta-status'>";
