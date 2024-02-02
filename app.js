@@ -110,6 +110,7 @@ function sortearCarta() {
     numeroCartaJogador = parseInt(Math.random() * 9);
   }
   cartaJogador = cartas[numeroCartaJogador];
+  desabilitarEscolhaAtributos(true);
   document.getElementById("btnSortear").disabled = true;
   document.getElementById("btnJogar").disabled = false;
   exibirCartaJogador();
@@ -122,6 +123,14 @@ function obtemAtributoSelecionado() {
     if (radioAtributos[i].checked == true) {
       return radioAtributos[i].value;
     }
+  }
+}
+
+function desabilitarEscolhaAtributos(desabilitar) {
+  var atributoEscolhido = document.getElementsByName("atributo");
+
+  for (var i = 0; i < atributoEscolhido.length; i++) {
+    atributoEscolhido[i].disabled = desabilitar;
   }
 }
 
@@ -145,6 +154,7 @@ function jogar() {
   divResultado.innerHTML = htmlResultado;
   document.getElementById("btnJogar").disabled = true;
   exibirCartaMaquina();
+  desabilitarEscolhaAtributos(true);
 }
 
 function exibirCartaJogador() {
